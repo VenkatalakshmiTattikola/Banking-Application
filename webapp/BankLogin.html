@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XYZ Bank - Login</title>
+    <style>
+        /* Apply background gradient */
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to right, #7B1FA2, #1976D2);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Centered container */
+        .container {
+            text-align: center;
+            color: white;
+        }
+
+        /* Login box styling */
+        .login-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            margin-top: 10px;
+        }
+
+        h3 {
+            color: black;
+        }
+
+        /* Style form inputs */
+        input[type="text"], 
+        input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        /* Button styling */
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1976D2;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        button:hover {
+            background-color: #145AA3;
+        }
+
+        /* Register link */
+        p {
+            margin-top: 10px;
+            color: black;
+        }
+
+        a {
+            color: #1976D2;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>XYZ Bank</h2>
+        <div class="login-box">
+            <h3>Login</h3>
+            <form action="bank" method="post">
+                <label for="username">UserName</label>
+                <input type="text" id="username" name="username" placeholder="Enter Username">
+                
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter Password">
+                
+                <button type="submit">Login</button>
+                
+                <p>Don't have an account? <a href="Registration.html">Register here</a></p>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

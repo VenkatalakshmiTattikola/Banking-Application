@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Online Banking</title>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+        height: 100vh;
+        background-image: url('data:image/jpeg;base64,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'); /* Replace with your image path or URL */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button-container {
+        display: flex;
+        gap: 30px; /* space between buttons */
+    }
+
+    a {
+        padding: 15px 30px;
+        text-decoration: none;
+        background-color: rgba(0, 123, 255, 0.85);
+        color: white;
+        font-size: 18px;
+        border-radius: 8px;
+        transition: background-color 0.3s ease;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    a:hover {
+        background-color: rgba(0, 86, 179, 0.95);
+    }
+</style>
+</head>
+<body>
+<div class="button-container">
+    <a href="BankLogin.html">BankLogin</a>
+    <a href="Registration.html">Registration</a>
+</div>
+</body>
+</html>
